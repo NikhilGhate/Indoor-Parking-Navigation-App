@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DB_TEST1</string>
+    <string name="hello_world">Hello world! How are you!</string>
+    <string name="action_settings">Settings</string>
+    <string name="NextStep">NEXT STEP</string>
+    <string name="RerouteMe">ReRoute Me</string>
+    <string name="MapView">Map View</string>
+    <string name="DirectionsList">Directions List</string>        
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Location From GPS</string>
+    <string name="str_tv_location">Current Location</string>
+    </resources>

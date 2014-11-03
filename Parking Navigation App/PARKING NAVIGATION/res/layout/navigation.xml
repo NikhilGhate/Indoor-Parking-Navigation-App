@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:paddingTop="5dp"
+    tools:context=".Navigation_Activity" >
+
+    <LinearLayout
+        android:id="@+id/Fragment_Layout"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="344dp"
+            android:layout_weight="1.27"
+            android:background="#000000"
+            android:orientation="vertical" >
+
+            <TextSwitcher
+                android:id="@+id/textSwitcher"
+                android:layout_width="match_parent"
+                android:layout_height="92dp"
+                android:background="#FFFFFF" >
+            </TextSwitcher>
+
+            <TextView
+                android:id="@+id/direction_results"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:text="@string/DirectionsList"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Fragment_Layout2"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#000000"
+                android:gravity="bottom|center_vertical"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/rerouteButton"
+                    android:layout_width="94dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/bluebutton"
+                    android:padding="10dp"
+                    android:text="@string/RerouteMe" />
+
+                <Button
+                    android:id="@+id/turn_on_wifi"
+                    android:layout_width="117dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="0.92"
+                    android:background="@drawable/bluebutton"
+                    android:padding="10dp"
+                    android:text="@string/MapView" />
+
+                <Button
+                    android:id="@+id/buttonNext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/bluebutton"
+                    android:padding="10dp"
+                    android:text="Next Step" />
+            </LinearLayout>
+        </LinearLayout>
+
+        
+
+    </LinearLayout>
+
+</LinearLayout>
